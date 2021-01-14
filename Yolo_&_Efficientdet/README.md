@@ -12,4 +12,5 @@ https://colab.research.google.com/drive/1ZmbeTro4SqT7h_TfW63MLdqbrCUk_1br#scroll
 
 
 ## Few-Shot-Learning
-* The colab link for Few-Shot-Learning we try: \ https://colab.research.google.com/github/tensorflow/models/blob/master/research/object_detection/colab_tutorials/eager_few_shot_od_training_tf2_colab.ipynb
+* The colab link for Few-Shot-Learning we try: \
+https://colab.research.google.com/github/tensorflow/models/blob/master/research/object_detection/colab_tutorials/eager_few_shot_od_training_tf2_colab.ipynb
