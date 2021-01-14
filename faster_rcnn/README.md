@@ -12,30 +12,30 @@
 ## File Structure：
 ```
 ├── backbone:                          Feature extraction network can be selected according to their own requirements.
-│      ├── mobilenetv2_model.py:       Use resnet50 network as SSD backbone
-│      ├── resnet50_fpn_model.py:      SSD network structure file
-│      └── vgg_model.py:               Some of the functions used in the training process
-├── network_files:                     SSD network structure file
-│      ├── boxes.py:                   Use resnet50 network as SSD backbone
-│      ├── det_utils.py:               SSD network structure file
-│      ├── faster_rcnn_framework.py:   Use resnet50 network as SSD backbone
-│      ├── image_list.py:              SSD network structure file
-│      ├── roi_head.py:                Use resnet50 network as SSD backbone
-│      ├── rpn_function.py:            SSD network structure fileSSD network structure file
-│      └── transform.py:               Faster R-CNN网络（包括Fast R-CNN以及RPN等模块）
-├── train_utils:                       训练验证相关模块（包括cocotools）
-│      ├── coco_eval.py:               Use resnet50 network as SSD backbone
-│      ├── coco_utils.py:              SSD network structure file
-│      ├── group_by_aspect_ratio.py:   SSD network structure file
-│      └── train_eval_utils.py:        Faster R-CNN网络（包括Fast R-CNN以及RPN等模块）
-├── my_dataset.py:                     自定义dataset用于读取VOC数据集
-├── train_mobilenet.py:                以MobileNetV2做为backbone进行训练
-├── train_resnet50_fpn.py:             以resnet50+FPN做为backbone进行训练
-├── train_multi_GPU.py:                针对使用多GPU的用户使用
-├── predict.py:                        简易的预测脚本，使用训练好的权重进行预测测试
-├── pascal_voc_classes.json:           pascal_voc标签文件
-├── instruction.md:                    The cover page designed for web application
-├── micron_detection.py:               Streamlit app developed for data visualization, run by command 'sreamlit run micron_detection.py'
+│      ├── mobilenetv2_model.py:       Mobile Net as backbone.
+│      ├── resnet50_fpn_model.py:      Resnet50 as backbone.
+│      └── vgg_model.py:               VGG as backbone.
+├── network_files:                     Faster R-CNN network structure file
+│      ├── boxes.py:                   Caculate boxes IoU.
+│      ├── det_utils.py:               Balance positive and negative samples.
+│      ├── faster_rcnn_framework.py:   Main framework of faster RCNN.
+│      ├── image_list.py:              List out images.
+│      ├── roi_head.py:                ROI head.
+│      ├── rpn_function.py:            RPN network.
+│      └── transform.py:               Data transform.
+├── train_utils:                       Training and validation related modules (including cocotools).
+│      ├── coco_eval.py:               
+│      ├── coco_utils.py:              
+│      ├── group_by_aspect_ratio.py:   
+│      └── train_eval_utils.py:        
+├── my_dataset.py:                     Custom dataset is used to read X-Ray dataset.
+├── train_mobilenet.py:                Training Faster RCNN model based on mobilenet as backbone.
+├── train_resnet50_fpn.py:             Training Faster RCNN model based on resnet50 as backbone.
+├── train_multi_GPU.py:                For users with multiple GPUs.
+├── predict.py:                        Simple prediction script, using trained weights for prediction tests.
+├── XRay_classes.json:                 X-Ray data categories.
+├── instruction.md:                    The cover page designed for web application.
+├── micron_detection.py:               Streamlit app developed for data visualization, run by command 'sreamlit run micron_detection.py'.
 ```
 
 ## Download address of pre-training weights: 
