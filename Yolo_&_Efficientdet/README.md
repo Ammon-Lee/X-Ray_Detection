@@ -1,5 +1,5 @@
 # YOLO v5 & Efficientdet
-* For YOLO and Efficientdet, we realize by colab. So there, we link to our project below.\
+* For YOLO and Efficientdet, we realize by colab. So there, we link to our project below.
 * Besides, we also try idea of Few-Shot-Learning, the code link will be shared also as follows.
 
 ## YOLO
