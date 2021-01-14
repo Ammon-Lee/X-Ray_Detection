@@ -1,0 +1,7 @@
+{
+    "handphone": 1,
+    "laptop": 2,
+    "harddrive": 3,
+    "usbdrive": 4,
+    "camera": 5
+}
