@@ -41,8 +41,8 @@
 ## Download address of pre-training weights: 
   ### (put pre-training weights into src folder after downloading)
 **The well-trained weights can be used for both testing and training directly.**
-* The well-trained weights (could be used for testing directly) can be downloaded from:\
-https://pan.baidu.com/s/1HOtP4dp3Zxt50fyrofxB5w password：kw1z
+* The well-trained weights of ResNet50+FPN (could be used for testing directly) can be downloaded from:\
+  https://pan.baidu.com/s/1CCIANv-c93YRiENcOLDrBQ password：6h7j 
 
 **The official weights can only be used for trainging, not for testing.**
 * MobileNetV2 backbone: https://download.pytorch.org/models/mobilenet_v2-b0353104.pth
