@@ -1,4 +1,4 @@
-# X-Ray_Detection
+# SSD model
 **This a master final project of X-Ray object detection. All code is based on [SSD](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Detection/SSD).**
 
 ## Configure Environment：
