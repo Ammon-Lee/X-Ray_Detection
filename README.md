@@ -11,5 +11,5 @@
 │      └── Few-Shot-Learning:  Few-Shot-Learning
 ```
 ## Contributors
-* All this project are contributed by team AI Architect with three team memeber: Justin, Zin, Yiming. 
+* All this project are contributed by team AI Architect with three team memebers: Justin, Zin, Yiming. 
 * The supervisor of this project: Prof Birdie.
