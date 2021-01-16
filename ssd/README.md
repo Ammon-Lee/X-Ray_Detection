@@ -27,7 +27,7 @@
 ```
 
 ## Download address of pre-training weights: 
-  ### (put pre-training weights into src folder after downloading)
+  ### (put pre-training weights into save_weights folder after downloading)
 **The well-trained weights can be used for both testing and training directly.**
 * The well-trained weights (could be used for testing directly) can be downloaded from:\
 https://pan.baidu.com/s/1HOtP4dp3Zxt50fyrofxB5w password：kw1z
@@ -56,7 +56,7 @@ https://pan.baidu.com/s/1HOtP4dp3Zxt50fyrofxB5w password：kw1z
 * Single GPU training or CPU, directly use train_ssd300.py training script.
 
 ## Testing Method:
-* Make sure to modify prediction path correctly in 'predict_test.py'.
+* Make sure to modify weights path correctly in 'predict_test.py'.
 * Runing 'predict_test.py'
 
 ## Questions? Problems?
