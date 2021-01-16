@@ -66,7 +66,7 @@
 * Single GPU training or CPU, directly use train_res50_fpn.py training script.
 
 ## Testing Method:
-* Make sure to modify prediction path correctly in 'predict.py'.
+* Make sure to modify weights path correctly in 'predict.py'.
 * Runing 'predict.py'
 
 ## Questions? Problems?
