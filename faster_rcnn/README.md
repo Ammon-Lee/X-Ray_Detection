@@ -39,7 +39,7 @@
 ```
 
 ## Download address of pre-training weights: 
-  ### (put pre-training weights into src folder after downloading)
+  ### (put pre-training weights into save_weights folder after downloading)
 **The well-trained weights can be used for both testing and training directly.**
 * The well-trained weights of ResNet50+FPN (could be used for testing directly) can be downloaded from:\
   https://pan.baidu.com/s/1CCIANv-c93YRiENcOLDrBQ password：6h7j 
